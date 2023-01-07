@@ -9,9 +9,10 @@ body {
 	width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2vw 30vw 30vw 30vw 10vw;
+  grid-template-rows: 30vw 30vw 30vw 10vw;
+	margin-top: -1.25vw;
 }
-header, footer {
+footer {
   grid-column: 1 / span 2;
 }
 .section1, .section3, .section5 {
@@ -23,24 +24,21 @@ header, footer {
 /*
 	CELL STYLING
 */
-header,
+
 footer {
   height: 10vw;;
 }
-header, section, footer {
-  /*background: #eaeaea;*/
+ section, footer {
   align-items: center;
   justify-content: center;
 }
-header{
-	padding-left: 6vw;
-}
+
 .section1{
 	background-image: url('cilantro.png');
-	background-size: contain;
+	background-size: 40vw;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding-top: 11vw;
+	padding-top: 9.5vw;
 }
 .section2{
 	background-image: url('cafe-ext.jpg');
@@ -64,41 +62,33 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-/*
-	HEADER ELEMENTS
-*/
-.navbar{
-	display: inline;
-	vertical-align: middle;
-	padding: 5vw;
-	color: #ff9e47;
-}
 
 /*
 	SECTION1 ELEMENTS
 */
 .title{
-	font-size: 2.75vw;
+	font-size: 3.75vw;
 	display: block;
 	text-align: center;
 	font-family: impact;
 	color: #ff9e47;
 }
 .quote{
-	font-size: 1vw;
+	font-size: 1.25vw;
 	display: block;
 	text-align: center;
-	padding-top: 2vw;
+
 	font-family: baskerville;
 	font-weight: normal;
 	color: #4C2E05;
 }
 
+
 /*
 	SECTION4 ELEMENTS 
 */
 .about-us{
-	font-size: 2.75vw;
+	font-size: 4vw;
 	display: block;
 	text-align: left;
 	font-family: didot;
@@ -106,9 +96,10 @@ header{
 	padding-left: 16vw;
 	font-weight: normal;
 	margin-bottom: 0vw;
+	margin-top: -1vw;
 }
 .description{
-	font-size: 1vw;
+	font-size: 1.5vw;
 	display: block;
 	text-align: left;
 	font-family: baskerville;
@@ -125,12 +116,12 @@ header{
 /*
 	RESPONSIVENESS
 */
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	.section1, .section2, .section3, .section4, .section5, .section6 {
     grid-column: 1 / span 2;
   }
 	body {
-  grid-template-rows: 10vw 60vw 60vw 60vw 60vw 60vw 60vw 10vw;
+  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw 10vw;
 	}
 	.title{
 		font-size: 8vw;
@@ -160,7 +151,23 @@ header{
 	}
 	.gallery1, .gallery2, .gallery3, .gallery4, .gallery5 {
   	display: none;
-}
+	}
+	.see-menu{
+		width: 10vw;
+		height: 5vw;
+	}
+	.section1{
+	background-size: 70vw;
+	}
+	.quote{
+		padding-top:5vw;
+		font-size: 2.5vw;
+	}
+	.read-more{
+		width: 10vw;
+		height: 5vw;
+		
+	}
 }
 
 
@@ -169,8 +176,8 @@ header{
 	MISC
 */
 button{
-	width: 5vw;
-	height: 2vw;
+	width: 7.5vw;
+	height: 3vw;
 	font-size: .75vw;
 	display: block;
 	margin: 0 auto;
@@ -243,8 +250,11 @@ footer {
 	background-position: center;
 
 }
+/*
+	GALLERY 6 ELEMENTS
+*/
 .open{
-	font-size: 2.75vw;
+	font-size: 5vw;
 	display: block;
 	text-align: left;
 	font-family: didot;
@@ -252,10 +262,10 @@ footer {
 	padding-left: 6vw;
 	font-weight: normal;
 	margin-bottom: 0vw;
-	padding-top: 5vw;
+	padding-top: 1vw;
 }
 .hours {
-	font-size: 1vw;
+	font-size: 2vw;
 	display: block;
 	text-align: left;
 	font-family: baskerville;
