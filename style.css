@@ -1,0 +1,266 @@
+body {
+  margin: 0 auto;
+  padding: 1em 0;
+}
+/*
+	GRID STYLING
+*/
+body {
+	width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2vw 30vw 30vw 30vw 10vw;
+}
+header, footer {
+  grid-column: 1 / span 2;
+}
+.section1, .section3, .section5 {
+  grid-column: 1 / span 1;
+}
+.section2, .section4, .section6{
+	grid-column: 2/ span 1;
+}
+/*
+	CELL STYLING
+*/
+header,
+footer {
+  height: 10vw;;
+}
+header, section, footer {
+  /*background: #eaeaea;*/
+  align-items: center;
+  justify-content: center;
+}
+header{
+	padding-left: 6vw;
+}
+.section1{
+	background-image: url('cilantro.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 11vw;
+}
+.section2{
+	background-image: url('cafe-ext.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section3{
+	background-color: #4C2E05;
+	background-image: url('burger.jpg');
+	background-size: 18vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section4, .section5{
+	padding-top: 8vw;
+}
+.section6{
+	background-image: url('map.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*
+	HEADER ELEMENTS
+*/
+.navbar{
+	display: inline;
+	vertical-align: middle;
+	padding: 5vw;
+	color: #ff9e47;
+}
+
+/*
+	SECTION1 ELEMENTS
+*/
+.title{
+	font-size: 2.75vw;
+	display: block;
+	text-align: center;
+	font-family: impact;
+	color: #ff9e47;
+}
+.quote{
+	font-size: 1vw;
+	display: block;
+	text-align: center;
+	padding-top: 2vw;
+	font-family: baskerville;
+	font-weight: normal;
+	color: #4C2E05;
+}
+
+/*
+	SECTION4 ELEMENTS 
+*/
+.about-us{
+	font-size: 2.75vw;
+	display: block;
+	text-align: left;
+	font-family: didot;
+	color: #ff9e47;
+	padding-left: 16vw;
+	font-weight: normal;
+	margin-bottom: 0vw;
+}
+.description{
+	font-size: 1vw;
+	display: block;
+	text-align: left;
+	font-family: baskerville;
+	font-weight: normal;
+	color: #4c2e05;
+	padding-left: 16vw;
+}
+.read-more{
+	margin-left: 16vw;
+	margin-top: 2vw;
+}
+
+
+/*
+	RESPONSIVENESS
+*/
+@media (max-width: 700px) {
+	.section1, .section2, .section3, .section4, .section5, .section6 {
+    grid-column: 1 / span 2;
+  }
+	body {
+  grid-template-rows: 10vw 60vw 60vw 60vw 60vw 60vw 60vw 10vw;
+	}
+	.title{
+		font-size: 8vw;
+		margin-bottom: 4vw;
+	}
+	.quote{
+		font-size: 2vw;
+	}
+	.section1{
+		padding-top: 17vw;
+	}
+	.see-menu{
+		width: 12vw;
+		height: 6vw;
+		font-size: 1.5vw;
+	}
+	.section3{
+		background-size: 30vw;
+	}
+	.about-us{
+		padding-left: 29vw;
+		font-size: 8vw;
+	}
+	.description{
+		padding-left: 29vw;
+		font-size: 3vw;
+	}
+	.gallery1, .gallery2, .gallery3, .gallery4, .gallery5 {
+  	display: none;
+}
+}
+
+
+
+/*
+	MISC
+*/
+button{
+	width: 5vw;
+	height: 2vw;
+	font-size: .75vw;
+	display: block;
+	margin: 0 auto;
+	background: none;
+	border: solid .05vw #889F25;
+	color: #889F25;
+	white-space: nowrap;
+  overflow: hidden;
+}
+i{
+	font-size: 2vw;
+	padding: 4.75vw;
+}
+.fa-facebook{
+	padding-left: 0vw;
+}
+.footer-text{
+	display: inline;
+	padding-left: 8vw;
+	
+}
+/*
+	GALLERY 
+*/
+
+footer {
+	width: 100%;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 25vw 25vw 2vw;
+	grid-gap: 3vw;
+	padding: auto;
+	padding-top: 3vw;
+}
+
+.gallery1{
+	background-image: url('tacos.jpg');
+}
+.gallery2{
+	background-image: url('taco-salad.jpg');
+}
+.gallery3{
+	background-image: url('tacos-2.jpg');
+}
+.gallery4{
+	background-image: url('ceasar.jpg');
+}
+.gallery5{
+	background-image: url('burrito.jpg');
+}
+
+.gallery1, .galley4 {
+  grid-column: 1 / span 1;
+}
+.gallery2, .gallery5{
+	grid-column: 2 / span 1;
+}
+.gallery3, .gallery6{
+	grid-column: 3 / span 1;
+}
+.foot{
+	grid-column: 1 / span 3;
+	
+}
+.gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6 {
+	height: 100%;
+	background-size: cover;
+	background-size: 25vw;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.open{
+	font-size: 2.75vw;
+	display: block;
+	text-align: left;
+	font-family: didot;
+	color: #ff9e47;
+	padding-left: 6vw;
+	font-weight: normal;
+	margin-bottom: 0vw;
+	padding-top: 5vw;
+}
+.hours {
+	font-size: 1vw;
+	display: block;
+	text-align: left;
+	font-family: baskerville;
+	font-weight: normal;
+	color: #4c2e05;
+	padding-left: 6vw;
+	
+}
