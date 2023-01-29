@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   padding: 1em 0;
+	background-color: #FCF5E5;
 }
 /*
 	GRID STYLING
@@ -121,7 +122,7 @@ footer {
     grid-column: 1 / span 2;
   }
 	body {
-  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw 10vw;
+  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw  10vw;
 	}
 	.title{
 		font-size: 8vw;
@@ -139,11 +140,12 @@ footer {
 		font-size: 1.5vw;
 	}
 	.section3{
-		background-size: 30vw;
+		background-size: 40vw;
 	}
 	.about-us{
 		padding-left: 29vw;
 		font-size: 8vw;
+		margin-top: 15vw;
 	}
 	.description{
 		padding-left: 29vw;
@@ -166,7 +168,35 @@ footer {
 	.read-more{
 		width: 10vw;
 		height: 5vw;
-		
+		margin-left: 29vw;
+		font-size: 1.5vw;
+	
+	}
+	#contact-us{
+		margin-top: -5vw;
+	}
+	#open{
+		margin-left: -42.5vw;
+		font-size: 8vw;
+	}
+	#hours{
+		font-size: 3vw;
+		margin-left: -42.5vw;
+	}
+	.fa-facebook{
+	padding-left: 0vw;
+	font-size: 7vw;
+	}
+	.fa-square-instagram{
+	padding-left: 0vw;
+	font-size: 7vw;
+	}	
+	.fa-yelp{
+	padding-left: 0vw;
+	font-size: 7vw;
+	}
+	.footer-text{
+		margin-left: 15vw;
 	}
 }
 
@@ -198,6 +228,10 @@ i{
 	display: inline;
 	padding-left: 8vw;
 	
+}
+a{
+	text-decoration: none;
+	color: #4c2e05;
 }
 /*
 	GALLERY 
@@ -274,3 +308,4 @@ footer {
 	padding-left: 6vw;
 	
 }
+

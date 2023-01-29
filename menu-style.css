@@ -1,0 +1,16 @@
+img{
+	width:100%;
+}
+a{
+	text-decoration: none;
+	color: #4C2E05;
+}
+h3{
+	display: inline;
+	padding: 4.25vw;
+	
+	font-size: 2vw;
+	font-family: baskerville;
+	font-weight: normal;
+	margin-left: -1.75vw;
+}
