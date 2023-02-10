@@ -57,12 +57,14 @@ footer {
 .section4, .section5{
 	padding-top: 8vw;
 }
-.section6{
+/*
+.section6{ 
 	background-image: url('map.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+*/
 
 /*
 	SECTION1 ELEMENTS
@@ -112,8 +114,13 @@ footer {
 	margin-left: 16vw;
 	margin-top: 2vw;
 }
-
-
+/*
+	SECTION 6 ELEMENTS
+*/
+.map{
+	height: auto; 
+	width: 100%;
+}
 /*
 	RESPONSIVENESS
 */
@@ -125,7 +132,8 @@ footer {
   grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw  10vw;
 	}
 	.title{
-		font-size: 8vw;
+		margin-top: 4vw;
+		font-size: 12vw;
 		margin-bottom: 4vw;
 	}
 	.quote{
@@ -134,17 +142,12 @@ footer {
 	.section1{
 		padding-top: 17vw;
 	}
-	.see-menu{
-		width: 12vw;
-		height: 6vw;
-		font-size: 1.5vw;
-	}
 	.section3{
 		background-size: 40vw;
 	}
 	.about-us{
 		padding-left: 29vw;
-		font-size: 8vw;
+		font-size: 9vw;
 		margin-top: 15vw;
 	}
 	.description{
@@ -155,22 +158,24 @@ footer {
   	display: none;
 	}
 	.see-menu{
-		width: 10vw;
-		height: 5vw;
+		margin-top: -1vw;
+		font-size: 2.5vw;
+		width: 17vw;
+		height: 8.5vw;
 	}
 	.section1{
 	background-size: 70vw;
 	}
 	.quote{
-		padding-top:5vw;
-		font-size: 2.5vw;
+		padding-top: 0vw;
+		font-size: 3vw;
 	}
 	.read-more{
-		width: 10vw;
-		height: 5vw;
+		width: 17vw;
+		height: 8.5vw;
 		margin-left: 29vw;
-		font-size: 1.5vw;
-	
+		font-size: 2.5vw;
+		margin-bottom: 10vw;
 	}
 	#contact-us{
 		margin-top: -5vw;
@@ -198,6 +203,12 @@ footer {
 	.footer-text{
 		margin-left: 15vw;
 	}
+	#open{
+		font-size:12vw;
+	}
+	.hours{
+		font-size: 3vw;
+	}
 }
 
 
@@ -216,6 +227,9 @@ button{
 	color: #889F25;
 	white-space: nowrap;
   overflow: hidden;
+	cursor: pointer;
+	border-width: 1px;
+	color: #4c2e05;
 }
 i{
 	font-size: 2vw;
