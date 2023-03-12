@@ -11,7 +11,6 @@ img{
 .nav-links{
 	display: inline;
 	padding: 4.25vw;
-	
 	font-size: 2vw;
 	font-family: baskerville;
 	font-weight: normal;
@@ -19,7 +18,7 @@ img{
 }
 a{
 	text-decoration: none;
-	color: #4C2E05;
+	color: black;
 	display: inline;
 	padding-top: 10vw;
 	padding-left: 9vw;
@@ -139,6 +138,8 @@ grid-template-rows: repeat(2, 1fr);
 h1{
 	margin-bottom: -1vw;
 	font-size: 7vw;
+	display: inline;
+	font-weight: normal;
 }
 h2{
 	font-size: 3vw;
@@ -147,6 +148,8 @@ h2{
 }
 h3{
 	font-size: 1.5vw;
+	display: inline-block;
+	width: 80%;
 }
 p{
 	font-size: 1vw;
@@ -156,4 +159,30 @@ p{
 	max-width: 15vw;
 	margin:0 auto;
 	margin-bottom: -2vw;
+}
+#home{
+	font-weight: bold;
+	font-size: 4vw;
+}
+#breakfast{
+	display: inline-block;
+	margin-top: 10vw;
+}
+
+
+.menu-container {
+  position: relative;
+	margin: 5vw;;
+  padding: 10px;
+	width: 80%;
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: black;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+	padding-bottom: 5vw;
+	margin-left: 10vw;
+}
+.menu-container:hover {
+  box-shadow: 10px 10px rgba(0,0,0,.25);
 }
