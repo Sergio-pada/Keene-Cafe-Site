@@ -322,4 +322,10 @@ footer {
 	padding-left: 6vw;
 	
 }
-
+.map{
+	transition: transform .2s;
+}
+.map:hover{
+    transform:scale(1.08);
+		border-radius: 3%;
+}

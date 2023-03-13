@@ -11,21 +11,24 @@ img{
 .nav-links{
 	display: inline;
 	padding: 4.25vw;
+	padding-top: 0;
 	font-size: 2vw;
 	font-family: baskerville;
 	font-weight: normal;
 	margin-left: -1.75vw;
 }
 a{
+	display: inline-block;
 	text-decoration: none;
 	color: black;
-	display: inline;
-	padding-top: 10vw;
+/* 	display: inline; */
+	padding-top: 0vw;
 	padding-left: 9vw;
  }
 h4{
 	display: inline;
 	padding: 4.25vw;
+	padding-top: 0;
 	font-size: 2vw;
 	font-family: baskerville;
 	font-weight: normal;
@@ -162,7 +165,7 @@ p{
 }
 #home{
 	font-weight: bold;
-	font-size: 4vw;
+	font-size: 4vw; 8                                                                         
 }
 #breakfast{
 	display: inline-block;
