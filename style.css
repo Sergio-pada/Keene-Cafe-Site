@@ -129,7 +129,7 @@ footer {
     grid-column: 1 / span 2;
   }
 	body {
-  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw  10vw;
+  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw 60vw;
 	}
 	.title{
 		margin-top: 4vw;
@@ -140,10 +140,17 @@ footer {
 		font-size: 2vw;
 	}
 	.section1{
-		padding-top: 17vw;
+		padding-top: 8vw;
+		background-position: 50% 150%;
+		background-size: 300px 100px;
 	}
 	.section3{
 		background-size: 40vw;
+	}
+
+	.section5{
+
+		padding-top: 20vw;
 	}
 	.about-us{
 		padding-left: 29vw;
@@ -209,6 +216,9 @@ footer {
 	.hours{
 		font-size: 3vw;
 	}
+	.foot{
+		margin-bottom: -30vw;
+	}
 }
 
 
@@ -224,7 +234,7 @@ button{
 	margin: 0 auto;
 	background: none;
 	border: solid .05vw #889F25;
-	color: #889F25;
+	
 	white-space: nowrap;
   overflow: hidden;
 	cursor: pointer;
@@ -240,7 +250,7 @@ i{
 }
 .footer-text{
 	display: inline;
-	padding-left: 8vw;
+	padding-left: 0vw;
 	
 }
 a{

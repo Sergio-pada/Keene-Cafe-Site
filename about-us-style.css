@@ -15,7 +15,7 @@ p{
 
 img{
 	height: 35vw;
-	padding-left: 27vw;
+	padding-left: 15vw;
 	padding-top: 2vw;
 	display: block;
 }
@@ -57,6 +57,23 @@ hr{
 	}
 	img{
 		height: 50vw;
-		padding-left: 15vw;
+		padding-left: 7vw;
 	}
+}
+
+.about-us-container {
+  position: relative;
+	margin: 5vw;;
+  padding: 10px;
+	width: 80%;
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: black;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+	padding-bottom: 5vw;
+	margin-left: 10vw;
+}
+.about-us-container:hover {
+  box-shadow: 10px 10px rgba(0,0,0,.25);
 }
