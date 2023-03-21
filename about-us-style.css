@@ -10,7 +10,7 @@ p{
 	font-size: 2.5vw;
 	text-align: center;
 	padding-top: 0vw;
-	color: #4C2E05;
+	color: black;
 }
 
 img{
@@ -29,14 +29,11 @@ h3{
 	font-weight: normal;
 }
 
-.section1{
-	margin: auto;
-  width: 50%;
-}
+
 section{
 
   padding: 10px;
-	
+	padding-bottom: 0;
 }
 hr{
   border: 0;
@@ -56,7 +53,7 @@ hr{
   color: black;
   box-shadow: 20px 20px rgba(0,0,0,.15);
   transition: all .4s ease;
-	padding-bottom: 5vw;
+	padding-bottom: 0vw;
 	margin-left: 10vw;
 }
 .about-us-container:hover {
@@ -71,7 +68,7 @@ a{
 	display: block;
 	text-align: center;	
 	font-weight: bold;
-	color: #4c2e05;
+	color: black;
 }
 
 
