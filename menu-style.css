@@ -8,20 +8,11 @@ img{
 	width:100%;
 }
 
-.nav-links{
-	display: inline;
-	padding: 4.25vw;
-	padding-top: 0;
-	font-size: 2vw;
-	font-family: baskerville;
-	font-weight: normal;
-	margin-left: -1.75vw;
-}
+
 a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-/* 	display: inline; */
 	padding-top: 0vw;
 	padding-left: 9vw;
  }
@@ -158,10 +149,7 @@ p{
 	margin:0 auto;
 	margin-bottom: -2vw;
 }
-#home{
-	font-weight: bold;
-	font-size: 4vw; 8                                                                         
-}
+
 #breakfast{
 	display: inline-block;
 	margin-top: 10vw;
@@ -185,6 +173,25 @@ p{
   box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
+h4{
+	display: inline;
+	padding: 4.25vw;
+	padding-top: 0;
+	font-size: 6vw;
+	font-family: baskerville;
+	font-weight: normal;
+	margin-left: -7vw;
+	
+}
+h6{
+	display: inline;
+		font-size: 4vw;
+		width: 10vw;
+		margin-left: -4vw;
+	}
+hr{
+	margin-left: 15vw;
+}
 @media (max-width: 900px) {
 	h3{
 		font-size: 5vw;
@@ -212,6 +219,7 @@ p{
 		margin-left: 0;
  		font-size: 3vw;
 		font-weight: normal;
+		margin-bottom: -2vw;
 	}
 	#breakfast, #lunch{
 		font-size: 17vw;
@@ -220,4 +228,25 @@ p{
 	#served-from{
 		margin-top: 0;
 	}
+	h6{
+	display: inline;
+		font-size: 4vw;
+		width: 10vw;
+		margin-left: -4vw;
+	}
+	h4 {
+		 width: 100%;
+		font-size: 7vw;
+		margin-left: -7vw;
+	}
+	.section0{
+		margin-left: 25vw;
+	}
+	a{
+		width: 100%;
+	}
+	section0{
+		width: 100%;
+	}
 }
+ 
