@@ -110,8 +110,12 @@ footer {
 /*
 	SECTION 6 ELEMENTS
 */
-.map{
-	height: auto; 
+
+.section6{
+	background-color: #4C2E05;
+}
+iframe{
+	height: 100%;
 	width: 100%;
 }
 /*
